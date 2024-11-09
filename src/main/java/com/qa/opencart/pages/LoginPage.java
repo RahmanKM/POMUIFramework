@@ -20,7 +20,7 @@ public class LoginPage {
 	private By password= By.id("input-password");
 	private By loginBtn= By.xpath("//input[@value='Login']");
 	private By logoImage= By.cssSelector("img[title='naveenopencart']");
-	private By forgotPwdLink =By.linkText("Forgotten Password#");
+	private By forgotPwdLink =By.linkText("Forgotten Password");
 	private By registerLink =By.linkText("Register");
 	
 	private static final Logger LOG= Logger.getLogger(LoginPage.class);
