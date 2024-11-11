@@ -118,7 +118,7 @@
 					<argLine>-Xmx2048m</argLine>
 					<suiteXmlFiles>
 						<!-- <suiteXmlFile>
-							src/test/resource/testrunners/testng_regression.xml</suiteXmlFile>   -->
+							src/test/resource/testrunners/testng_regression.xml</suiteXmlFile> -->
 						 <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 					<argLine>
