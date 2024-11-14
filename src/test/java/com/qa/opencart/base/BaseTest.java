@@ -26,14 +26,16 @@ public class BaseTest {
 	public ProductInfoPage productInfoPage;
 	public RegisterPage registerPage;
 	
-	@Parameters({"browser"})
+	@Parameters({"browser", "browserversion", "testname"})
 	@BeforeTest
-	public void setup(String browser) {
+	public void setup(String browser, String browserVersion, String testName) {
 		df = new DriverFactory();
 		prop= df.initProp();
 		
 		if (browser!=null) {
 			prop.setProperty("browser", browser);
+			prop.setProperty("browserversion", browserVersion);
+			prop.setProperty(testName, testName);
 		}
 		
 		
